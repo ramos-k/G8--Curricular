@@ -267,7 +267,7 @@ function renderLinkPanel(areaId, fdef, url){
   panel.innerHTML = `
     <div>
       <div style="font-weight:700;margin-bottom:6px;">${url ? 'Documento configurado' : 'Todavía no configuraste el link'}</div>
-      <div class="link-url">${url ? url : 'Agregá el link a tu documento de equipamiento.'}</div>
+      <div class="link-url">${url ? url : 'Link al doc del equipamiento'}</div>
     </div>
     <div style="display:flex;gap:8px;">
       ${url ? `<button class="btn ghost" id="open-link">Abrir ↗</button>` : ''}
