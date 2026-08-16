@@ -74,11 +74,6 @@ const CARPETA = {name:'Carpeta', color:'carpeta',
     {id:'entregaC', name:'Entrega C'},
   ]};
 
-/* =========================================================
-   FIREBASE — todo lo que se sube/guarda vive en Firestore,
-   así que es lo mismo para cualquiera que abra el sitio.
-   `db` viene definido en firebase-config.js
-   ========================================================= */
 const FIRESTORE_MAX_BYTES = 780 * 1024; // ~780KB de archivo original (techo real: Firestore permite ~1MB por documento)
 
 function folderKey(area, folder){ return area+'__'+folder; }
